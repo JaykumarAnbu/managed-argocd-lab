@@ -1,0 +1,15 @@
+1. one Github account
+2. clone Github account morey tech
+3. modify guestbook.yaml and portal.yaml
+4. Docker desktop - kubectl, Kind command
+5. kind create cluster --name staging3
+6. kubectl get nodes
+7. Create organization
+8. Connect cluster
+9. kubectl config current-context 
+10. Install Agent - kubectl apply -f akuity-manifests-staging3.yaml
+11. kubectl get pods -n akuity
+12. modify guestbook.yaml
+13.modify portal.yaml
+14. Update ArgoCD new app yamls
+15.check argoCD versions
